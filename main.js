@@ -211,7 +211,7 @@ function createBackground() {
 //create menu
 function createMenu(menulist) {
   const order = Order();
-  const menu_section = createTag(null, "section", "menu_section");
+  const menu_section = createTag(null, "section", "menu_section"); 
   const menu_coffee = createTag(
     menu_section,
     "div",
