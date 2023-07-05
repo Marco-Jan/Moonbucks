@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+.startpoint {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+header {
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(182, 126, 23, 0.3);
+    height: 6em;
+}
+
+.logo_header {
+    width: 5em;
+    height: 5em;
+    background-color: transparent;
+    
+
+}
+
+#bgContainer {
+    background-image: url(img/MJ_Meranocity_0002_20181128__MG_2883-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+    filter: grayscale(0.4);
+
+}
+
+#menu_section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    z-index: 1;
+}
+h2, .h3{
+    padding: 20px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.menu_sub_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    padding: 20px;
+    background-color: rgba(255, 218, 185,0.5);
+    border-radius: 20px;
+
+}
+
+.add_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 2px;
+    width: 3em;
+    height: 2em;
+}
+
+#order_section {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    padding: 20px;
+    
+    background-color: rgba(255, 218, 185,0.5);
+    border-radius: 20px;
+}
+.order{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.decrease_num{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 2px;
+    width: 3em;
+    height: 2em;
+}
+
+
+
+footer {
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo_footer{
+    
+    width: 80px;
+}
+
+
