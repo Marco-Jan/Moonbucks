@@ -167,4 +167,37 @@ footer {
     width: 80px;
 }
 
+/*Mediaquery für min 1200px*/
+
+@media screen and (min-width: 1200px) {
+   /*  body {
+      background-color: lightgreen;
+    } */
+
+    h1 {
+        position: relative;
+        left: 70px;
+    
+        font-size: 7em;
+        
+    }
+    header{
+        justify-content: space-around;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+    
+      }
+    a{
+        margin: 0 10px 0 10px;
+    }
+  }
+
+
+
+
+    
+
 
